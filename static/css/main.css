@@ -21,7 +21,7 @@ a:link
 }
 body
 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
     font-size: 20px;
     font-weight: 400;
 
@@ -53,8 +53,7 @@ html
 .author h6,
 .author p
 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1000px;
+    font-family: 'Roboto Slab', serif;
 }
 .category
 {
@@ -75,7 +74,7 @@ html
 }
 div.content
 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 300;
 
@@ -83,20 +82,22 @@ div.content
 }
 .copyright
 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 200;
 }
 .description
 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     color: #2e3b45;
     text-align: left;
 }
 .error
 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+    margin-top: 100px;
 }
 .error h1
 {
@@ -128,7 +129,7 @@ div.content
 .header
 {
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 .headshot
 {
@@ -145,7 +146,7 @@ div.content
 }
 .intro
 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 200;
     color: #777;
 }
@@ -155,7 +156,7 @@ h3.intro
 }
 .list
 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
     margin-top: 50px;
 }
@@ -165,7 +166,7 @@ h3.intro
 }
 .list-entry
 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 25px;
     font-weight: 400;
 
@@ -198,7 +199,7 @@ h3.intro
 }
 .meta
 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 200;
 
@@ -210,15 +211,18 @@ a.meta
 }
 h6.meta
 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 200;
 
     color: #bbb;
 }
+section.meta {
+    margin-top: 
+}
 .powered
 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 300;
 }
@@ -233,7 +237,7 @@ h6.meta
 }
 .title
 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 400;
 
     color: #555;
@@ -252,7 +256,7 @@ header.title
     }
     .list
     {
-        font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Roboto', sans-serif;
 
         margin-top: 30px;
     }

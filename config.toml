@@ -1,4 +1,38 @@
-baseURL = "http://xavierlu.github.io/"
+uglyurls = true
+builddrafts = true
 languageCode = "en-us"
 title = "Xavier Lu"
-theme = "goa"
+theme = "hugo-goa"
+author = "Xavier Lu"
+canonifyurls = true
+googleAnalytics = "UA-120521681-2"
+enableRobotsTXT = true
+
+[params]
+    author = "Xavier Lu"
+    intro = ""
+    description = "b.s. in computer science @ cornell '22 \n\nxll2@cornell.edu\n\n(609) 216-9918\n\n**resume:** [<u>PDF</u>](/resume.pdf)"
+    authorimage = ""
+    dateformat = "Jan 2, 2006"
+    
+[params.meta]
+    description = "Xavier Lu"
+    keywords = "Xavier Lu, Cornell, computer science, Ithaca, developer"
+
+[params.social]
+    github = "xavierlu"
+    linkedin = "xavier-lu"
+    
+[params.extra]
+    copyright = "© 2019. Xavier Lu. All Rights Reserved."
+    poweredby = true
+    
+#[[menu.main]]
+#    name = "blog"
+#    url = "/blog/"
+    weight = 1
+[[menu.main]]
+    name = "about"
+    url = "/about/index.html"
+    weight = 2
+    
