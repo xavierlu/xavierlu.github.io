@@ -1,0 +1,4 @@
+baseURL = "http://xavierlu.github.io/"
+languageCode = "en-us"
+title = "Xavier Lu"
+theme = "goa"
